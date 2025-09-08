@@ -1,0 +1,22 @@
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;     /* Container ko flexbox bana diya, matlab andar ke elements flex items ban gaye.*/
+    flex-direction: row;   /* Items row me arrange honge (main axis = horizontal).*/
+    justify-content: center; /*items right side pe chale jayenge.*/
+}
+
+h1{
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

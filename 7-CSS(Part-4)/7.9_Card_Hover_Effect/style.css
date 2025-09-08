@@ -1,0 +1,31 @@
+.card {
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top; /* Jab multiple cards ek line me ho, to sab top se align honge (jo aapko chahiye tha). */
+    text-align: center; /*Card ke andar jo text hai (jaise naam, profession), wo center me align hoga */
+    overflow: hidden; /*Agar card ke andar kuch content ya image border ke bahar jaa raha ho, to usko chipka dega (hide karega).*/
+    font-family: Arial, sans-serif; /*Text ke liye Arial font use karega (clean aur readable font).*/
+    box-shadow: 0 4px 8px black;
+    transition: 1s;
+
+}
+.desc {
+    padding: 0 2px 0 2px;
+}
+.card img{
+    width: 100%; /*Image card ke andar poora horizontal space le legi (200px width).*/
+    height: 150px; /*Image ki height fix kar di gayi hai — sab images same height me dikhengi.*/
+    object-fit: cover; /*Agar image ki size ya shape alag ho, to wo crop ho jaayegi aur box me ache se fit ho jaayegi bina kheech ke.*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; /*Image ke upar ke dono corners gol ho jaayenge, jisse wo card ke rounded border ke saath match kare.*/
+
+}
+.card h3 {
+    margin: 10px 0 5px; /*Naam ke upar aur neeche spacing (margin) set karta hai:Upar 10px Neeche 5px Side me 0} */
+}
+.card:hover {
+    box-shadow: 0 8px 16px goldenrod;
+}

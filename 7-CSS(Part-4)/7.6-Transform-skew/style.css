@@ -1,0 +1,48 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa784;
+    border: 2px solid black;
+    margin: 10px auto ;  /* auto sa sabhi center ma ajayenga */
+}
+
+div:nth-of-type(2n) {  /* Har second number par aana vala elment ko langa */
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+
+/* transform rotate karna ka liya aisa likhana padta ha */
+#one {
+    transform: rotate(45deg);  /* yaah sirf element ko hi nahi rotate nhi karenga balki uska andar likha content ko bhi raotate kar dega */
+    
+}
+
+/* transform scale --> size half ya double ho jata ha */
+#two {
+    transform: scale(0.5); /* x ka along 0.5 ho jayega */
+}
+#Three {
+    transform: scale(0.5 , 2) /* x ka along 0.5 ho jaay and y direction ka along double(2) ho jaay */
+}
+
+#Four {
+    transform: translate(100px,100px);  /* yaah x-axis sa bhi 100px door ho jaata ha and y-axis sa bhi 100px door ho jaata ha */
+}
+
+#Five {
+    transform: skew(30deg); /* aur agar 90 degree karenga toh gayab ho jayega because dono taraf sa khichenga */
+                            /* aur agar -30 degree karti toh left ki direction ki taraf tilt hota */
+}
+
+/* abb in saab properties ko hum aak saath bhi perform karva sakta ha */
+#Six {
+    transform: rotate(30deg) translateX(150px);
+}

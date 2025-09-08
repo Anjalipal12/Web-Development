@@ -1,0 +1,26 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa784;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n) {  /* Har second number par aana vala elment ko langa */
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+
+/* transform rotate karna ka liya aisa likhana padta ha */
+#one {
+    transform: rotate(45deg);  /* yaah sirf element ko hi nahi rotate nhi karenga balki uska andar likha content ko bhi raotate kar dega */
+    
+}

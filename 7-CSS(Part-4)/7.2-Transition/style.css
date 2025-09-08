@@ -1,0 +1,13 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,1);
+    transition: 1s; /*aak dum sa color change nhi hoga 1ms second tak hoga*/
+    transition-duration: 1s; /* aak state sa dusri state ma jaane ka liya kitna time lagaga */
+    transition-delay: 1s;
+}
+
+div:hover {
+    background-color: black;
+    border-radius: 50%; /* jab hum us par click karega toh uska shape change ho jayega */
+}

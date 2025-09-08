@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: #4dff00ff;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s; /*aak dum sa color change nhi hoga 1ms second tak hoga*/
+    
+}
+
+div:hover {
+    margin-top: 400px;
+    background-color: pink;
+}

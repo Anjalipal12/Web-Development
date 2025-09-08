@@ -1,0 +1,9 @@
+div {
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+}
+/* agar muja css ka use karke kissi bhi element ko outer ki taraf dikhana ha toh ma issa use kar sakti hoo */
