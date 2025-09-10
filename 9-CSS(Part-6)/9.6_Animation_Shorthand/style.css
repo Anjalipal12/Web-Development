@@ -1,0 +1,56 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /*animation-name: widthAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+   /* animation-iteration-count: 3; /* ki hamara animation kitni baar repeat ho raah ha  hamara yaah animation 3 times chalega 
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    animation: colAnimate 3s ease-in 0s  infinite normal;
+}
+
+@keyframes colAnimate{
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes widthAnimate{
+    from {
+        width: 10px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+/* animation ka template banaya ha agar ama abhi page ko refresh karti hoo toh koi bhi chage nhi ayega ,
+animation ko karna ka liya hum yaah sab property ko karte ha */
+@keyframes fontAnimate{
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: blue;
+    }
+}
