@@ -30,3 +30,14 @@ console.log(idea.slice(0,4));
 console.log(idea.slice(0,msg.length-1));
 console.log(idea.slice(-2));
 console.log(idea.slice(-3));
+
+
+//6. Array :
+//let student1 = "Aman"
+//let student2 = "Anjali"
+//let student3 = "Sagar"
+
+let students = ["Aman","Sagar","Anjali"];
+
+//7. Array Method :
+let cars = ["audi","bmw","xuv","maruti"];
