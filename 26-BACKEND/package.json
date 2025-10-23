@@ -1,0 +1,17 @@
+{
+  "name": "26-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "math.js",
+  "dependencies": {
+    "express": "^5.1.0",
+    "figlet": "^1.9.3",
+    "random-words": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjali Pal",
+  "license": "ISC",
+  "type": "module"
+}

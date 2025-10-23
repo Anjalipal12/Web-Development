@@ -46,12 +46,12 @@ function levelUp() {
     level++;
     h2.innerText = `Level ${level}`;
 
-    let randIdx = Math.floor(Math.random() * 4);
+    let randIdx = Math.floor(Math.random() * 3);
     let randColor = btns[randIdx];
-    let randBtn = document.getElementById(randColor);
-
+    let randBtn = document.querySelector(`.${randColor}`);
     gameSeq.push(randColor);
-    flash(randBtn);
+    console.log(gameSeq);
+    gameflash(randBtn);
 }
 
 // Button click handler
